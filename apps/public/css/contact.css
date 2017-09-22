@@ -8,7 +8,7 @@ body {
 
 #sub-container {
     padding: 50px;
-    margin-top: 250px;
+    margin-top: 180px;
     text-align: center;
 }
 
@@ -28,4 +28,13 @@ body {
 .btn:hover {
     margin: 8px;
     background-color: rebeccapurple;
+}
+
+.btn-floating.btn-large {
+    width: 115px;
+    height: 115px;
+}
+
+.btn-floating.btn-large i {
+    line-height: 115px;
 }
