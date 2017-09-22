@@ -1,0 +1,13 @@
+body {
+    background-image: url("../images/test-image3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px #000;
+}

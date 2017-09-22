@@ -1,0 +1,59 @@
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/test-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+#name {
+    font-size: 130px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    user-select: none;
+}
+
+#name:hover {
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#bodyContent {
+    width: 100%;
+    text-align: center;
+    margin-top: 260px;
+    z-index: 1;
+    position: relative;
+}
+
+#selectors {
+    z-index: 1;
+    position: relative;
+}
+
+li {
+    display: inline;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+}
+
+#words {
+    color: white;
+}
+
+#words:hover {
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+}
