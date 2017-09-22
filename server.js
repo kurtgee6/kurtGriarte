@@ -21,10 +21,6 @@ app.use(bodyParser.json({
 
 
 app.use(express.static('apps/public'));
-app.use(express.static('apps/data'));
-
-//gets the API table stored in apiRoutes.js so users can see data
-//require('./apps/routing/apiRoutes.js')(app);
 
 //gets the HTML file stored in htmlRoute.js so users sees display
 require('./apps/routing/htmlRoutes.js')(app);

@@ -12,6 +12,14 @@ body {
     text-align: center;
 }
 
+#navDesign {
+    background-color: #7fddff;
+}
+
+#word {
+    color: black;
+}
+
 .btn {
     margin: 8px;
     background-color: black;
