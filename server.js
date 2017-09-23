@@ -19,7 +19,6 @@ app.use(bodyParser.json({
     type: "application/vnd.api+json"
 }));
 
-
 app.use(express.static('apps/public'));
 
 //gets the HTML file stored in htmlRoute.js so users sees display
