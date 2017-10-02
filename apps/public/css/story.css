@@ -1,10 +1,10 @@
-#panelOne {
+/* #panelOne {
     background-image: url('../images/test-image2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 #navDesign {
     background-color: #7fddff;
@@ -13,3 +13,15 @@
 #word {
     color: black;
 }
+
+h2 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+#paragraphs {
+    font-size: 30px;
+    width: 50%;
+    margin-left: 25%;
+    text-shadow: 2px 2px 4px #000;
+}
+
