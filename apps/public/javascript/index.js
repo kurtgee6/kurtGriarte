@@ -6,7 +6,13 @@ $("#name").click(function () {
         "Kurt Griarte's favorite rapper is Logic",
         "Kurt Griarte's favorite sports are Soccer and Basketball",
         "Kurt Griarte's favorite cartoon shows are Tom & Jerry and Mr. Beans",
-        "When Kurt Griarte was a kid, he wanted to grow up to become a rapper"
+        "When Kurt Griarte was a kid, he wanted to grow up to become a rapper", 
+        "Kurt Griarte's favorite speakers are Mel Robbins, Elon Musk and Steve Jobs",
+        "One of Kurt Griarte's favorite book is Contagious by Jonah Berger",
+        "Kurt Griarte is a fan of Game of Thrones", 
+        "Kurt Griarte's favorite github user is Bucky Roberts",
+        "Kurt Griarte's a fan of the Pittsburgh Steelers",
+        "Kurt Griarte enjoys watching Real Madrid"
     ]
 
     var emptyArr = []
