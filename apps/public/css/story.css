@@ -1,10 +1,27 @@
-/* #panelOne {
-    background-image: url('../images/test-image2.jpg');
+#panelOne {
+    background-image: url('../images/home-philippines.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
+
+#panelTwo {
+    background-image: url('../images/second-home.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#panelThree {
+    background-image: url('../images/third-home.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 #navDesign {
     background-color: #7fddff;
