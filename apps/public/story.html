@@ -5,6 +5,7 @@
     <title>story - kurtGriarte</title>
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
     <!-- custom css -->
     <link rel="stylesheet" href="css/story.css">
     <!-- custom font -->
@@ -16,16 +17,26 @@
 <body>
 
 
-    <nav>
-        <div id="navDesign" class="nav-wrapper">
-            <a href="#" class="brand-logo"><img id="navbarLogo"></a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a id="word" href="/">kurtGriarte</a></li>
-                <li><a id="word" href="/projects">Projects</a></li>
-                <li><a id="word" href="/contact">Contacts</a></li>
-            </ul>
-        </div>
-    </nav>
+            <nav>
+                <div id="navDesign" class="nav-wrapper">
+                     <a href="#" data-activates="mobile-demo" class="button-collapse">
+                         <i class="material-icons">menu</i>
+                      </a>
+                    <a href="#" class="brand-logo"><img id="navbarLogo"></a>
+                    <ul class="left hide-on-med-and-down">
+                        <li><a id="word" href="/">kurtGriarte</a></li>
+                        <li><a id="word" href="/contact">Contact</a></li>
+                        <li><a id="word" href="/projects">Project</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                            <li><a id="wordNav" href="/">kurtGriarte</a></li>
+                            <li><a id="wordNav" href="/projects">Projects</a></li>
+                            <li><a id="wordNav" href="/contact">Contac</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
 
     <div class="carousel carousel-slider center" data-indicators="true" style="height: 670px;">
 

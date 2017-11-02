@@ -10,3 +10,7 @@ $("#email").click(function () {
 $("#instagram").click(function () {
     Materialize.toast('Instagram: kurtgriarte ', 5000)
 });
+
+$( document ).ready(function(){
+    $(".button-collapse").sideNav();    
+})

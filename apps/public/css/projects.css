@@ -11,6 +11,11 @@ body {
     font-family: 'Quicksand', sans-serif;    
 }
 
+a#wordNav {
+    color: black;
+    font-family: 'Quicksand', sans-serif;    
+}
+
 h1 {
     color: white;
     font-family: 'Quicksand', sans-serif;
