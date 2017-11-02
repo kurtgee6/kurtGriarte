@@ -27,6 +27,6 @@ $("#name").click(function () {
     var randomSentence = emptyArr[Math.floor(Math.random() * emptyArr.length)];
 
 
-    Materialize.toast(randomSentence, 5000, 'blue rounded') // 4000 is the duration of the toast
+    Materialize.toast(randomSentence, 5000, 'black rounded') // 4000 is the duration of the toast
 
 });

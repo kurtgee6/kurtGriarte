@@ -24,15 +24,17 @@
 
 
 #navDesign {
-    background-color: #7fddff;
+    background-color: black;
 }
 
 #word {
-    color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;    
 }
 
 h2 {
     text-shadow: 2px 2px 4px #000;
+    font-family: 'Quicksand', sans-serif;    
 }
 
 #paragraphs {
@@ -40,5 +42,6 @@ h2 {
     width: 50%;
     margin-left: 25%;
     text-shadow: 2px 2px 4px #000;
+    font-family: 'Quicksand', sans-serif;    
 }
 

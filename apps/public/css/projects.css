@@ -1,21 +1,33 @@
 body {
-    background-image: url("../images/test-image3.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #171717;
 }
 
 #navDesign {
-    background-color: #7fddff;
+    background-color: black;
 }
 
 #word {
-    color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;    
 }
 
 h1 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-shadow: 2px 2px 4px #000;
+    margin-bottom: 0;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: black;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #999999;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;    
 }
