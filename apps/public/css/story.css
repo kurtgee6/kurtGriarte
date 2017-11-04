@@ -22,6 +22,14 @@
     background-size: cover;
 }
 
+#panelEight {
+    background-image: url('../images/unc_coding_bootcamp_group_pic.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 #navDesign {
     background-color: black;
