@@ -1,4 +1,4 @@
-#panelOne {
+/* #panelOne {
     background-image: url('../images/home-philippines.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -28,7 +28,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 #navDesign {
@@ -46,7 +46,8 @@ h2 {
 }
 
 #paragraphs {
-    font-size: 30px;
+    margin-top: 5%;
+    font-size: 20px;
     width: 50%;
     margin-left: 25%;
     text-shadow: 2px 2px 4px #000;
