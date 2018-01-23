@@ -5,6 +5,8 @@
     <title>home - kurtGriarte</title>
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- materialize special icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="css/index.css">
     <!-- custom font -->
@@ -16,41 +18,147 @@
 </head>
 
 <body>
+    <!-- nav -->
+    <nav>
+        <div class="nav-wrapper">
+          <a id="logo" class="brand-logo center">kurtGriarte</a>
+        </div>
+    </nav>
 
-    <div class="boxCont">
+    <!-- content of page starts here -->
+    <div class="container" style="margin-top: 10px;">
 
-            <div class="selectors">
-                <a href="/projects">projects</a>
+        <!-- picture -->
+        <div class="row" >
+            <div class="col s3">
+
+                <img id="picture" src="images/kurt-head.jpg">
+
+                <p style="font-size: 20px;">Nickname <i class="material-icons">fingerprint</i></p>
+
+                <p> ~ Captain Kurt  </p>
+
+                <p style="font-size: 20px;">Short Story <i class="material-icons">portrait</i></p>
+
+                <p> ~ Curious individual who heavily follows fashion trends, 
+                    business startups and the Los Angeles Lakers. </p>
+
+                <hr>
+
             </div>
+        
+        <!-- second navbar -->
+        <div class="col s9" >
 
-             <div class="selectors" id="second">
-                    <a href="/contact">contact</a>
-            </div>
+                <ul>
+                    <li><a href="default.asp">Biography</a></li>
+                    <li><a href="news.asp">Contact</a></li>
+                    <li><a href="contact.asp">Projects</a></li>
+                </ul>
+    
+                <!-- start of projects -->
+                <h2 id="projects">Projects</h2>
 
-            <div class="selectors">
-                    <a href="/story">story</a>
-            </div>
+                <!-- first row of project -->
+                <div class="row">
+                    <div class="col s6">
+                        <div class="card small z-depth-3">
+                            <div class="card-image">
+                                <img src="images/flipped-scripts.png">
+                            </div>
+                            <div class="card-content">
+                                <p>MMORPG based game with a modern user interface</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://stormy-citadel-20684.herokuapp.com/" target="_blank">Visit Lords of Might</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s6">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img src="images/griarte-fashion.png">
+                                </div>
+                                <div class="card-content" style="padding: 20px;">
+                                    <p>Fashion website application built with React.js for the client-side and MySQL for the server-side.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="https://github.com/kurtgee6/griarte-fashion" target="_blank">Visit Griarte</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            
+            <!-- second row of projects -->
+            <div class="row">
+                <div class="col s6">
+                        <div class="card small z-depth-3">
+                            <div class="card-image">
+                                <img src="images/hangman.png">
+                            </div>
+                            <div class="card-content" style="padding: 30px;">
+                                <p>Guess the word, you win!</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://kurtgee6.github.io/Hangman-Game/" target="_blank">Visit Hangman</a>
+                            </div>
+                        </div>
+                    </div>    
+        
+                    <div class="col s6">
+                        <div class="card small z-depth-3">
+                            <div class="card-image">
+                                <img src="images/curtisFlow.png">
+                            </div>
+                            <div class="card-content">
+                                <p>Website designed for rising actor Curtis Glenn from Chapel Hill, North Carolina</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="http://www.curtisyesindeed.com/" target="_blank">Visit Curtis Glenn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <!-- third row of projects -->
+            <div class="row">
+                    <div class="col s6">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img src="images/night-out.png">
+                                </div>
+                                <div class="card-content" style="padding: 20px;">
+                                    <p>Designed to help users plan the “perfect night out” based on their needs and personal/event preferences.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="https://mohampton.github.io/NightOut/" target="_blank">Visit Night Out</a>
+                                </div>
+                            </div>
+                        </div>
+            
+            
+                        <div class="col s6">
+                            <div class="card small z-depth-3">
+                                <div class="card-image">
+                                    <img src="images/trivia.png">
+                                </div>
+                                <div class="card-content">
+                                    <p>Trivia Game that tests how well you know American History</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="https://kurtgee6.github.io/TriviaGame/" target="_blank">Visit Trivia Game</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        
+        </div>
 
     </div>
 
-        <div style="text-align:center" class="name">
-            kurtGriarte    
-        </div>
-    
-
-     <div style="margin-top: 30px" class="boxCont">
-
-            <div class="selectors">
-                Philippines
-            </div>
-
-             <div class="selectors" id="bottomSecond">
-                11-11-1997
-            </div>
-
-            <div class="selectors">
-                4th out 6
-            </div>
+            <!-- Story of my life -->
+            <h2 id="biography">Biography</h2>
 
     </div>
 

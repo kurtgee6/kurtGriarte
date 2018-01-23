@@ -1,4 +1,4 @@
-$("#name").click(function () {
+$(".name").click(function () {
 
     var sentences = [
         "Kurt Griarte's a fan of the Los Angeles Lakers",

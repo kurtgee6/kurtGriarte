@@ -1,63 +1,88 @@
-body {
-    /* background: url("../images/space-background.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-
-  background-color: black;
-    
+.container {
+    padding: 10px;
 }
 
-.boxCont {
-    width: 100%;
-    float: left;
+nav .nav-wrapper {
+    background-color: #000;
+}
+
+/* kurtgriarte name on nav */
+#logo {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* picture sizing */
+#picture {
+    height: 270px;
+    width: 225px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid black;
+    border-right: 1px solid black; */
+}
+
+/* second navbar container */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+li {
+    display: inline;
+}
+
+/* style of second navbar */
+li a {
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+/* style of second navbar HOVER */
+li a:hover {
+    color: #7f7f7f;
+}
+
+/* styling the font */
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* the word project */
+
+#projects {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
     text-align: center;
-    padding-left: 400px;
-    margin: 30px 0px;
-    margin-top: 160px;    
+    font-size: 35px; 
 }
 
-.selectors {
-    margin-left: 40px;
-    border: 1px solid #464646;
-    background-color: rgba(25,25,25,9);
-    padding: 20px;
-    width: 15%;
-    color: #464646;
-    float: left;
+/* card styling */
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: black;
+    font-family: 'Quicksand', sans-serif;    
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #999999;
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;   
-    border-radius: 5px; 
 }
 
-.selectors:hover {
-	box-shadow: 0px 0px 10px white;
+p {
+    font-family: 'Quicksand', sans-serif;    
 }
 
-.name {
-    font-size: 110px;
-    font-family: 'Quicksand', sans-serif;
-    z-index: 1;
-    color: #464646;
-    text-shadow: 2px 2px 4px #000;
-    user-select: none;
-    
-}
-
-a {
-    color: #464646;
-    font-size: 15px;       
-}
-
-a:hover {
-    color: white;    
-}
-
-#second {
-    margin-top: -60px; 
-}
-
-#bottomSecond{
-    margin-top: 60px;
+#biography {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 35px; 
 }
