@@ -126,7 +126,7 @@ p {
 }
 
 /* the word contacts */
-#contacts {
+#contactMe {
     background-color: black;
     color: white;
     padding: 5px 10px;
@@ -134,6 +134,12 @@ p {
     font-size: 35px; 
 }
 
+/* paragraphs for bio */
 #paragraphs {
     font-size: 28px;
+}
+
+/* icons */
+i {
+    color: #000;
 }

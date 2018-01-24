@@ -30,3 +30,11 @@ $(".name").click(function () {
     Materialize.toast(randomSentence, 5000, 'black rounded') // 4000 is the duration of the toast
 
 });
+
+$("#phone").click(function () {
+    Materialize.toast('Cell Number: (919)-923-3586 ', 5000)
+});
+
+$("#instagram").click(function () {
+    Materialize.toast('Instagram: kurtgriarte ', 5000)
+});
