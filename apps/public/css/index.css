@@ -134,12 +134,80 @@ p {
     font-size: 35px; 
 }
 
-/* paragraphs for bio */
-#paragraphs {
-    font-size: 28px;
+.paragraphs {
+    font-size: 28px;    
 }
 
 /* icons */
 i {
     color: #000;
+}
+
+
+/********************* making the website RESPONSIVE in DESKTOP ********************/
+
+@media only screen and (max-width: 1400px ) {
+    .paragraphs {
+        font-size: 26px;    
+    }
+
+    #picture {
+        height: 250px;
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .paragraphs {
+        font-size: 22px;    
+    }
+
+    #picture {
+        height: 230px;
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .paragraphs {
+        font-size: 22px;    
+    }
+
+    #picture {
+        height: 210px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .paragraphs {
+        font-size: 20px;    
+    }
+
+    #picture {
+        height: 220px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .paragraphs {
+        font-size: 15px;    
+    }
+
+    #picture {
+        height: 210px;
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .paragraphs {
+        font-size: 10px;    
+    }
+
+    #picture {
+        height: 190px;
+        width: 140px;
+    }
 }
