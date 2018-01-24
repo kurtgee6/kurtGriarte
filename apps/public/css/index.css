@@ -179,7 +179,20 @@ i {
     }
 }
 
+/* specific to ipad pro */
 @media only screen and (max-width: 1100px) {
+    .paragraphs {
+        font-size: 20px;    
+    }
+
+    #picture {
+        height: 210px;
+        width: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
     .paragraphs {
         font-size: 20px;    
     }
@@ -203,11 +216,34 @@ i {
 
 @media only screen and (max-width: 700px) {
     .paragraphs {
-        font-size: 10px;    
+        font-size: 15px;    
     }
 
     #picture {
         height: 190px;
         width: 140px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .paragraphs {
+        font-size: 15px;    
+    }
+
+    #picture {
+        height: 170px;
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .paragraphs {
+        font-size: 15px;    
+    }
+
+    #picture {
+        height: 130px;
+        width: 80px;
     }
 }
