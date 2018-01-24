@@ -14,10 +14,10 @@ nav .nav-wrapper {
 /* picture sizing */
 #picture {
     height: 270px;
-    width: 225px;
+    width: 230px;
     padding-bottom: 10px;
-    /* border-bottom: 1px solid black;
-    border-right: 1px solid black; */
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 /* second navbar container */
@@ -79,10 +79,61 @@ p {
     font-family: 'Quicksand', sans-serif;    
 }
 
+/* the word biography */
 #biography {
     background-color: black;
     color: white;
     padding: 5px 10px;
     text-align: center;
     font-size: 35px; 
+}
+
+/* first image in bio section */
+.firstBioImage {
+    float: left;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+/* second image in bio section */
+.secondBioImage {
+    float: right;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+/* third image in bio section */
+.thirdBioImage {
+    float: left;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+
+/* fourth image in bio section */
+.fourthBioImage {
+    float: right;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+/* the word contacts */
+#contacts {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 35px; 
+}
+
+#paragraphs {
+    font-size: 28px;
 }
