@@ -4,8 +4,7 @@ var bodyParser = require('body-parser');
 var express = require('express');
 var path = require('path');
 var nodemailer = require('nodemailer');
-const xoauth2 = require('xoauth2');
-var path = require('path');
+var xoauth2 = require('xoauth2');
 
 var app = express();
 
@@ -24,16 +23,20 @@ app.use(bodyParser.json({
 
 app.use(express.static('apps/public'));
 
- //sends the user the index.html file 
- app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + '/../public/index.html'));
-});
+//  //sends the user the index.html file 
+//  app.get('/', function (req, res) {
+//     res.sendFile(path.join(__dirname + '/../public/index.html'));
+// });
+
+
+//gets the HTML file stored in htmlRoute.js so users sees display
+require('./apps/routing/htmlRoutes.js')(app);
 
 app.post('/send', function(req, res) {
 
         var from = req.body.email;
 
-        const output = `
+        var output = `
         <p>You have a new contact request</p>
         <h3>Contact Details</h3>
         <ul>  
@@ -46,7 +49,7 @@ app.post('/send', function(req, res) {
     `;
 
     // create reusable transporter object using the default SMTP transport
-    let transporter = nodemailer.createTransport({
+    var transporter = nodemailer.createTransport({
         service: "Gmail",
         port: 465,
         secure: true, // true for 465, false for other ports
@@ -60,7 +63,7 @@ app.post('/send', function(req, res) {
     });
 
     // setup email data with unicode symbols
-    let mailOptions = {
+    var mailOptions = {
         from: '"Nodemailer Contact" < ' + from  + '>', // sender address
         to: 'dummytestrest@gmail.com', // list of receivers
         subject: 'New Contact Request', // Subject line
@@ -73,8 +76,10 @@ app.post('/send', function(req, res) {
         if (error) {
             return console.log(error);
         }
+
         console.log('Message sent: %s', info.messageId);   
-        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+
+        return res.redirect('/thankYou');
 
     });
 
