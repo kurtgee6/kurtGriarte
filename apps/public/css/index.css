@@ -147,6 +147,20 @@ i {
 
 form {
     font-family: 'Quicksand', sans-serif;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+input {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+textarea {
+    height: 10rem;
+    background-color: transparent;
+    margin: 20px 0px;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
