@@ -240,7 +240,7 @@
         <!-- start of the contacts section -->
         <h2 id="contactMe" class="section scrollspy">Contact Me</h2>
 
-        <form id="formValidate" method="POST" action="send" style="margin-bottom: 60px;">
+        <!-- <form id="formValidate" method="POST" action="send" style="margin-bottom: 60px;">
             <fieldset>
                <label>Name:</label>
                <input type="text" name="name" placeholder="Enter your full name e.g. (Kyle Kuzma)" />
@@ -258,7 +258,19 @@
                <input id="submitButton" type="submit" value="Talk with Kurt" />
             </fieldset>
          </form>
-        
+         -->
+
+         <!-- formspree email -->
+
+         <form method="POST" action="https://formspree.io/businessfankurt@gmail.com">
+            <input type="fname" name="fname" placeholder="Enter Full Name">
+            <input type="email" name="email" placeholder="enter Your Email">
+            <input type="number" name="phone" placeholder="Enter Phone Number">
+            <textarea name="message" placeholder="Enter a short description of what you want to talk about!"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+
     </div>
 
     <!-- Main JQuery source-->
