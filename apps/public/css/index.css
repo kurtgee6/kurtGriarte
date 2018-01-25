@@ -125,6 +125,16 @@ p {
     width: 300px;
 }
 
+/* the word Skills */
+#skills {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 35px; 
+}
+
+
 /* the word Contact Me */
 #contactMe {
     background-color: black;
