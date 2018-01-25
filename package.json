@@ -21,6 +21,8 @@
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "materialize-social": "^1.0.3",
-    "path": "^0.12.7"
+    "nodemailer": "^4.4.2",
+    "path": "^0.12.7",
+    "xoauth2": "^1.2.0"
   }
 }
