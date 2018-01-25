@@ -48,4 +48,57 @@ $(document).ready(function(){
     });
 
 
+    ///////////////////////////////////////////////////////
+    ///////////////// Form Validation /////////////////////
+    ///////////////////////////////////////////////////////
+
+    $("#formValidate").validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 5
+            },
+            email: {
+                required: true,
+                email:true
+            },
+            phone: {
+				required: true,
+				minlength: 5
+			},
+			message: {
+				required: true,
+				minlength: 5,
+			}
+        },
+        //For custom messages
+        messages: {
+            name:{
+                required: "Please enter your Full Name",
+                minlength: "Enter at least 5 characters"
+            },
+            email: {
+                required: "Please enter a valid Email Adress",
+                minlength: "Enter at least 5 characters"
+            },
+            phone:{
+                required: "Please enter a valid phone number"
+            },
+            message:{
+                required: "Please enter more than 5 characters.",
+                minlength: "Enter at least 5 characters"
+            }
+        },
+        errorElement : 'div',
+        errorPlacement: function(error, element) {
+          var placement = $(element).data('error');
+          if (placement) {
+            $(placement).append(error)
+          } else {
+            error.insertAfter(element);
+          }
+        }
+     });
+
+
 });
