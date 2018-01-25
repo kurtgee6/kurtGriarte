@@ -63,13 +63,12 @@
         <div class="col s9" >
 
                 <ul>
-                    <li><a href="contact.asp">Projects</a></li>
-                    <li><a href="default.asp">Biography</a></li>
-                    <li><a href="news.asp">Contact Me</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#contactMe">Contact Me</a></li>
                 </ul>
     
                 <!-- start of projects -->
-                <h2 id="projects">Projects</h2>
+                <h2 id="projects" class="section scrollspy">Projects</h2>
 
                 <!-- first row of project -->
                 <div class="row">
@@ -170,7 +169,7 @@
     </div>
 
          <!-- Story of my life -->
-        <h2 id="biography">Biography</h2>
+        <h2 id="biography" class="section scrollspy">Biography</h2>
 
         <img src="images/childhood-memory1.png" class="firstBioImage" alt="firstImage">
 
@@ -239,7 +238,7 @@
         </p>
 
         <!-- start of the contacts section -->
-        <h2 id="contactMe">Contact Me</h2>
+        <h2 id="contactMe" class="section scrollspy">Contact Me</h2>
 
         <form method="POST" action="send" style="margin-bottom: 60px;">
             <fieldset>
@@ -256,7 +255,7 @@
                <textarea  style="height: 150px;" name="message" placeholder="Enter a short description of what you want to talk about! "></textarea>
                <br>
                <br>
-               <input type="submit" value="Talk with Kurt" />
+               <input id="submitButton" type="submit" value="Talk with Kurt" />
             </fieldset>
          </form>
         
